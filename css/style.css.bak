@@ -1,0 +1,68 @@
+body {
+  background-image: url("../images/universo-imagem-de-fundo.jpg");
+  font-family: "Titillium Web", serif;
+}
+
+#page-wrapper {
+  width: 70%;
+  margin: 50px auto;
+}
+
+#planets {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Titillium Web", serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 30px 0;
+  color: #ffffff;
+}  
+
+tbody{
+  background-color: #ffffff;
+}
+
+th, a{
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.imagesPlanets {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+
+.imagesPlanets td {
+  text-align: center;
+  vertical-align: middle; 
+}
+
+td{
+  padding: 15px;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 400;
+}
+
+td:first-child {
+  text-align: left; 
+  font-weight: bold; 
+}
+
+.infoRows{
+  background-color: #e8ebea;
+}
+
+.infoRows:hover{
+  background-color: #d3d3d3;
+}
+
